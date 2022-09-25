@@ -1,0 +1,91 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.Navigation {
+
+      background-color: #225d22;
+  overflow: hidden;
+}
+.Navigation a {
+      float: left;
+      color:  black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: underline;
+      font-size: 19px;
+      font-family: sans-serif;
+}
+/* Change the color of links on hover */
+.Navigation a:hover {
+  background-color:#225d22;
+  color: white;
+}
+.Image {
+      /*Adds darken backgriybd effect to image*/
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url("C:\Users\16138\OneDrive - The University of Western Ontario\Documents\SE2202\Personal Website\Hero_Picture.jpg");
+background-position: center;
+background-repeat:  no-repeat;
+background-size: cover;
+postition:  relative;
+}
+.Hero {
+ text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+
+}
+.Hero a:hover {
+      background-color: #225d22;
+      color:white;
+}
+
+.about {
+  padding: 100px;
+  text-align: left;
+  background-color: #225d22;
+  color:white;
+
+}
+
+.awards {
+  padding: 100px;
+  text-align: left;
+  background-color: white;
+  color: #225d22;
+}
+
+.Contact {
+  padding: 100px;
+  text-align: left;
+  background-color: #8aa889;
+  color: white;
+}
